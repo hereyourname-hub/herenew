@@ -12,6 +12,7 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:text="@string/no_notes_for_this_medication"
+        android:fontFamily="@font/montserratregular"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

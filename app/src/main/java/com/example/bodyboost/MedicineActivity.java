@@ -147,14 +147,7 @@ public class MedicineActivity extends AppCompatActivity {
         Spinner patientNames = findViewById(R.id.patientSpinner);
         final String you = getString(R.string.you);
 
-        // Exit if there are no patients in DB
-        if (db.numberOfRows() == 0) {
-            noMeds.setVisibility(View.VISIBLE);
-            scheduleScrollView.setVisibility(View.GONE);
-            patientNames.setVisibility(View.GONE);
-            this.findViewById(R.id.navButtonLayout).setVisibility(View.GONE);
-            return;
-        }
+
 
         ArrayList<Medication> medications = medicationsForThisWeek();
         ArrayList<String> names = db.getPatients();

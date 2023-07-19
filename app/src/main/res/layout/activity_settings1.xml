@@ -41,7 +41,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/options"
-                        style="@style/standardTextView" />
+                        style="@style/standardTextView"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/montserrat"/>
 
                     <androidx.appcompat.widget.SwitchCompat
                         android:id="@+id/disableTimeBeforeDose"
@@ -49,6 +51,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
                         android:layout_marginEnd="15dp"
+                        android:fontFamily="@font/montserratregular"
                         android:layout_marginBottom="5dp"
                         android:text="@string/disable_time_before_dose_requirement" />
 
@@ -67,6 +70,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:textColor="@color/primary_color"
                             android:text="@string/number_of_hours_before_dose_can_be_taken"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
@@ -91,6 +95,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/enable_notifications"
                         android:layout_marginStart="10dp"
+                        android:fontFamily="@font/montserratregular"
                         android:layout_marginEnd="10dp"
                         android:layout_marginBottom="5dp" />
 
@@ -108,7 +113,8 @@
                             android:id="@+id/themeSelector"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:inputType="none" />
+                            android:inputType="none"
+                            android:fontFamily="@font/montserratregular"/>
                     </com.google.android.material.textfield.TextInputLayout>
 
                 </LinearLayout>
@@ -128,41 +134,25 @@
                     android:orientation="vertical">
 
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/license"
-                        style="@style/standardTextView" />
+
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/purpose"
-                        style="@style/standardTextView" />
+                        style="@style/standardTextView"
+                        android:fontFamily="@font/montserratregular"/>
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/copyright"
-                        style="@style/standardTextView" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/licenseInfo"
-                        style="@style/standardTextView" />
+                        style="@style/standardTextView"
+                        android:textColor="@color/primary_color"
+                        android:fontFamily="@font/montserrat"/>
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/warranty"
-                        style="@style/standardTextView" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/copyOfGPL2"
-                        style="@style/standardTextView" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -171,7 +161,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
-                android:backgroundTint="@color/red"
+                style="@style/ButtonGreen"
                 android:onClick="onPurgeButtonClick"
                 app:cornerRadius="30dp"
                 android:text="@string/delete_all" />

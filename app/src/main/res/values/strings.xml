@@ -221,10 +221,7 @@
         to provide medical advice and no information provided by this application should be misconstrued
         as such. The creators of this application are not responsible are not responsible for any missed
         doses of your medications for any reason. If you require medical assistance, please contact a medical professional.
-        By using this application, you are agreeing to the aforementioned terms as well as those of the GPL2 license under
-        which it is released. \n\n
 
-        This application is released under the GNU Public License Version 2, see below for more details:
     </string>
 
         <!-- Add/EditMedication -->
@@ -309,25 +306,11 @@
         <string name="settings">Settings</string>
         <string name="options">Options</string>
         <string name="license">License</string>
-        <string name="purpose">MediTrak is a free and open source application designed to help you keep track of your medications, so you can more easily answer the question \"did I take my medication yesterday?\"</string>
-        <string name="copyright">Copyright © 2022 Adam Guidarini</string>
-        <string name="licenseInfo">MediTrak is free software and may be redistributed and/or modified under the terms of the GNU General Public License as published by the Free software foundation, either version 2 or (at your option) later.</string>
+        <string name="purpose">Medication is a application designed to help you keep track of your medications, so you can more easily answer the question \"did I take my medication yesterday?\"</string>
+
+        <string name="licenseInfo">Give permission to receive notifications</string>
         <string name="warranty">
-        This program is free software; you can redistribute it and/or
-        modify it under the terms of the GNU General Public License
-        as published by the Free Software Foundation; either version 2
-        of the License, or (at your option) any later version.
-
-        This program is distributed in the hope that it will be useful,
-        but WITHOUT ANY WARRANTY; without even the implied warranty of
-
-        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-        GNU General Public License for more details
-    </string>
-        <string name="copyOfGPL2">
-        You should have received a copy of the GNU General Public License
-        along with this program; if not, write to the Free Software
-        Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+        Give permission to receive notifications
     </string>
         <string name="cannot_take_medication_more_than">Cannot take medication more than</string>
         <string name="hours_in_advance">hours in advance</string>

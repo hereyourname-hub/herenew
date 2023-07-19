@@ -26,7 +26,8 @@
                 android:importantForAutofill="no"
                 android:inputType="textMultiLine"
                 android:minLines="1"
-                tools:ignore="LabelFor" />
+                tools:ignore="LabelFor"
+                android:fontFamily="@font/montserratregular"/>
         </com.google.android.material.textfield.TextInputLayout>
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>

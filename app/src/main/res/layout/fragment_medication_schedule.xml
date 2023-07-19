@@ -16,7 +16,8 @@
             android:id="@+id/dateLabel"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            style="@style/standardTextView" />
+            style="@style/standardTextView"
+            android:fontFamily="@font/montserratregular"/>
 
         <LinearLayout
             android:id="@+id/medicationSchedule"
@@ -52,6 +53,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/as_needed_dose"
+                android:fontFamily="@font/montserratregular"
                 android:textAlignment="gravity"
                 android:gravity="center_vertical"
                 app:drawableStartCompat="@android:drawable/ic_menu_add" />

@@ -35,7 +35,9 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:fontFamily="@font/montserratregular"
                         style="@style/standardTextView"
+                        android:textStyle="bold"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/who_takes_this_medication" />
@@ -50,14 +52,16 @@
                             android:id="@+id/patientIsMe"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/patientIsMe" />
+                            android:text="@string/patientIsMe"
+                            android:fontFamily="@font/montserratregular"/>
 
                         <com.google.android.material.radiobutton.MaterialRadioButton
                             android:id="@+id/patientIsNotMe"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="15dp"
-                            android:text="@string/someone_else" />
+                            android:text="@string/someone_else"
+                            android:fontFamily="@font/montserratregular"/>
                     </RadioGroup>
 
                     <com.google.android.material.textfield.TextInputLayout
@@ -97,6 +101,8 @@
                         style="@style/standardTextView"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/montserratregular"
                         android:text="@string/what_is_the_medication_s_name_amp_how_much_is_taken" />
 
                     <com.google.android.material.textfield.TextInputLayout
@@ -112,14 +118,16 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:hint="@string/medication_name"
-                            android:inputType="text" />
+                            android:inputType="text"
+                            android:fontFamily="@font/montserratregular"/>
                     </com.google.android.material.textfield.TextInputLayout>
 
                     <com.google.android.material.switchmaterial.SwitchMaterial
                         android:id="@+id/aliasSwitch"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/alias_for_notifications" />
+                        android:text="@string/alias_for_notifications"
+                        android:fontFamily="@font/montserratregular"/>
 
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/aliasInputLayout"
@@ -162,6 +170,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:hint="@string/medication_dosage"
+                                    android:fontFamily="@font/montserratregular"
                                     android:inputType="number" />
                             </com.google.android.material.textfield.TextInputLayout>
                         </RelativeLayout>
@@ -186,6 +195,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:hint="@string/units"
+                                    android:fontFamily="@font/montserratregular"
                                     android:inputType="text" />
                             </com.google.android.material.textfield.TextInputLayout>
                         </RelativeLayout>
@@ -213,6 +223,8 @@
                         style="@style/standardTextView"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/montserratregular"
                         android:text="@string/how_often_is_the_medication_taken" />
 
                     <com.google.android.material.textfield.TextInputLayout
@@ -226,7 +238,8 @@
                             android:id="@+id/frequencyOptionsDropdown"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:inputType="none" />
+                            android:inputType="none"
+                            android:fontFamily="@font/montserratregular"/>
                     </com.google.android.material.textfield.TextInputLayout>
 
                     <!-- Daily Frequency -->
@@ -543,7 +556,8 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/saveButton"
-                android:layout_width="wrap_content"
+                style="@style/ButtonGreen"
+                android:layout_width="161dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="@string/save"
